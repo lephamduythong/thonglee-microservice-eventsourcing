@@ -81,6 +81,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
+		<!-- Axon Jackson serializer for JSON event serialization -->
+		<dependency>
+			<groupId>org.axonframework</groupId>
+			<artifactId>axon-messaging</artifactId>
+			<version>4.9.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
 
 	</dependencies>
 	<dependencyManagement>
